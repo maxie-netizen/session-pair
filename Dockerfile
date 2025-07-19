@@ -1,4 +1,4 @@
-FROM node:lts-bullseye  # or node:lts-bookworm
+FROM node:lts-bullseye
 
 RUN apt-get update && \
   apt-get install -y \
